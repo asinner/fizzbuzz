@@ -1,13 +1,13 @@
-def fizzbuzz number  
+def fizzbuzz number
   divisible_by_three = true if number % 3 == 0
   divisible_by_five = true if number % 5 == 0
   
   if divisible_by_three && divisible_by_five
-    "FizzBuzz"
+    'FizzBuzz'
   elsif divisible_by_three
-    "Fizz"
+    'Fizz'
   elsif divisible_by_five
-    "Buzz"
+    'Buzz'
   else
     number
   end
